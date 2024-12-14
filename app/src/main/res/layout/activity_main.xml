@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter NIM"
+        android:inputType="text" />
+
+    <!-- EditText untuk Nama -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <!-- EditText untuk Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email" />
+
+    <!-- EditText untuk Password -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <!-- Button untuk Mendaftar -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <!-- Button untuk Melihat Daftar Mahasiswa -->
+    <Button
+        android:id="@+id/buttonViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Users" />
+
+</LinearLayout>
